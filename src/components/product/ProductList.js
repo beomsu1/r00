@@ -4,11 +4,11 @@ const ProductList = () => {
 
 
     const product= [
-        {pno:1 , pname:'상품1' , price : 3000},
-        {pno:2 , pname:'상품2' , price : 5000},
-        {pno:3 , pname:'상품3' , price : 7000},
-        {pno:4 , pname:'상품4' , price : 9000},
-        {pno:5 , pname:'상품5' , price : 10000},
+        {pno:1 , pname:'상품1' , price : 3000 , img:`무민.jpg`},
+        {pno:2 , pname:'상품2' , price : 5000, img:`미피.jpg`},
+        {pno:3 , pname:'상품3' , price : 7000, img:`시나모롤.jpg`},
+        {pno:4 , pname:'상품4' , price : 9000, img:`오리.jpg`},
+        {pno:5 , pname:'상품5' , price : 10000, img:`헬로키티.jpg`},
       ]
 
     return ( 

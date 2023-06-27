@@ -3,6 +3,10 @@ import styled from "styled-components";
 const BlueDiv = styled.div`
 background-color: blue
 `
+const Img = styled.img`
+width:200px;
+height:200px;
+`
 
 const ProductDetail = ({product}) => {
 

@@ -6,14 +6,14 @@ background-color: blue
 
 const ProductDetail = ({product}) => {
 
-    const {pno , pname, price , images} = product
+    const {pno , pname, price , img} = product
     
     return ( 
         <li>
             <BlueDiv>PNO {pno}</BlueDiv>
             <div>NAME {pname}</div>
             <div>PRICE {price}</div>
-            <img src=""></img>
+            <div><Img src={require(`../img/${img}`)}/></div>
             <button>BUY</button>
         </li>
      );
